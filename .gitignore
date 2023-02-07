@@ -1,3 +1,8 @@
+# custom
+notebooks/archive.zip
+notebooks/final_data
+notebooks/*.pt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
