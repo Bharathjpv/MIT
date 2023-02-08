@@ -1,3 +1,5 @@
 ipykernel
 pandas
 matplotlib
+from_root
+-e .
