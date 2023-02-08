@@ -4,6 +4,8 @@ notebooks/final_data
 notebooks/*.pt
 
 logs
+artifacts
+data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

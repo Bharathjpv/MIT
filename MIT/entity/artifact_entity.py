@@ -1,0 +1,8 @@
+from dataclasses import dataclass
+
+# Data ingestion artifacts
+@dataclass
+class DataIngestionArtifacts:
+    train_file_path: str
+    test_file_path: str
+    image_folder_name: str

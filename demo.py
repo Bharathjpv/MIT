@@ -1,12 +1,9 @@
-from MIT.logger import logging
-from MIT.exceptions import CustomException
-import sys
+
+from MIT.entity.config_entity import DataIngestionConfig
+
+from MIT.components.data_ingestion import DataIngestion
 
 
-# logging.info("My first log")
-# logging.debug("my first debug log")
+di_ins = DataIngestion(DataIngestionConfig)
 
-# try:
-#     print("hello" + lslfjasf)
-# except Exception as e:
-#     raise CustomException(e, sys)
+di_art = di_ins.initiate_data_ingestion()
