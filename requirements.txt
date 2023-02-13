@@ -3,4 +3,5 @@ pandas
 matplotlib
 from_root
 joblib
+flask
 -e .
