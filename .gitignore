@@ -6,6 +6,7 @@ notebooks/*.pt
 logs
 artifacts
 data
+prediction_artifacts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
