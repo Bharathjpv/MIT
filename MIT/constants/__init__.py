@@ -1,4 +1,5 @@
 import os
+import torch
 from datetime import datetime
 
 TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
@@ -20,3 +21,15 @@ FOLDER_NAME: str = "indoorCVPR_09"
 IMAGE_FOLDER_NAME: str = "Images"
 TRAIN_FILE_NAME: str = "TrainImages.txt"
 TEST_FILE_NAME: str = "TestImages.txt"
+
+# constants realted to model training
+MODEL_TRAINIG_ARTIFACT_DIR: str = "model_trainig_artifacts"
+MODEL_NAME: str = "model.pt"
+TRAINER_OBJECT_NAME: str = "transform.pkl"
+LABLE_FILE_NAME: str = 'lable.txt'
+
+SPLIT: int = 4500
+BATCH_SIZE: int = 8
+EPOCHS: int = 1
+LEARNING_RATE: int = 6e-5
+OPTIMIZER = torch.optim.RMSprop
