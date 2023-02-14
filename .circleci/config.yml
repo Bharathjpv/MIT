@@ -53,7 +53,7 @@ jobs:
 
   continuous-deployment:
       machine: true
-      resource_class: deep-learning-01/dl-ineuron
+      resource_class: bharathjpv/test2
       environment:
         REPOSITORY: mit-indoor-classification
         IMAGE_NAME: mit-indoor-docker-image
