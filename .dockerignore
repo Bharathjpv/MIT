@@ -1,0 +1,9 @@
+notebooks/
+artifacts/
+logs/
+data/
+prediction_artifacts/
+venv/
+demo.py
+templete.py
+MIT_indoor_classification.egg-info/
