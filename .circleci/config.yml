@@ -7,7 +7,6 @@ jobs:
     resource_class: medium
     steps:
       - checkout
-
       - run:
           name: Lint code
           command: echo "Linting repository"
